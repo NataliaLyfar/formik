@@ -1,5 +1,6 @@
 import { Component } from "react";
-import { LoginForm } from "components/loginForm/LofinForm";
+// import { LoginForm } from "components/loginForm/LoginForm";
+import {ProductReviewForm } from 'components/productReviewForm/ProductReviewForm';
 
 export class App extends Component {
 
@@ -15,7 +16,8 @@ export class App extends Component {
         color: '#010101'
       }}
     >
-      <LoginForm/>
+      {/* <LoginForm/> */}
+      <ProductReviewForm/>
     </div>
   );}
 };
