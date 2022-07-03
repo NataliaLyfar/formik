@@ -1,4 +1,9 @@
-export const App = () => {
+import { Component } from "react";
+import { LoginForm } from "components/loginForm/LofinForm";
+
+export class App extends Component {
+
+  render(){
   return (
     <div
       style={{
@@ -10,7 +15,7 @@ export const App = () => {
         color: '#010101'
       }}
     >
-      React homework template
+      <LoginForm/>
     </div>
-  );
+  );}
 };
